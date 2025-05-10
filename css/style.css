@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  transition: opacity 0.5s;
+}
+.centered { text-align: center; }
+.form-card, .rooms {
+  background: #f1eddd;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label { font-weight: bold; margin-bottom: 5px; display: block; }
+.submit-btn, .floor-btn {
+  width: 100%;
+  background: #ddd8c0;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.submit-btn:hover, .floor-btn:hover { background: #c8c2a8; }
+.half { display: flex; gap: 10px; }
+.half div { flex: 1; }
+.rooms { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.room-card {
+  background: #f1eddd;
+  border-radius: 15px;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.room-title { font-weight: bold; text-align: center; margin-bottom: 10px; }
+.info { text-align: center; margin-bottom: 10px; }
+.stars { color: gold; }
+.photos { display: flex; justify-content: center; gap: 5px; margin-bottom: 10px; }
+.photo-thumb {
+  background: #8dd2f5;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.photo-main {
+  background: #8dd2f5;
+  height: 120px;
+  border-radius: 10px;
+}
+.fade-out { opacity: 0; }
+.fade-in { opacity: 1; }

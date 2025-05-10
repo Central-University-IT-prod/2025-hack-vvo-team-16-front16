@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="centered">Регистрация</h1>
+  <div class="form-card">
+    <form id="registrationForm">
+      <label>ФИО</label>
+      <input type="text" name="fio" required>
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <label>Факультет</label>
+      <input type="text" name="faculty" required>
+      <div class="half">
+        <div>
+          <label>Пол</label>
+          <input type="text" name="gender" required>
+        </div>
+        <div>
+          <label>Курс</label>
+          <input type="text" name="course" required>
+        </div>
+      </div>
+      <label>Доп. описание</label>
+      <input type="text" name="description">
+      <button type="submit" class="submit-btn">Зарегистрироваться</button>
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
